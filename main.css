@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./images/I2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.header{
+    border-radius: 50px 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid gold;
+    margin-bottom: 20px;
+    color: gold;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 50px 10px;
+    background:transparent;
+    backdrop-filter: blur(2000px);
+    box-shadow: 3px 3px 3px 3px gold;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+::placeholder{
+    color: gold;
+}
+input {
+    padding: 12px;
+    padding-left: 20px;
+    margin: 10px;
+    border-radius: 50px 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-color: gold;
+    color: gold;
+}
+input:hover{
+    border: 2px solid gold;
+    box-shadow: 2px 2px gold;
+    color:whitesmoke;
+}
+
+button {
+    padding: 10px;
+    border-radius: 50px 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-color: gold;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    color: gold;
+}
+button:hover{
+    background-color:gold;
+    box-shadow: 2px 2px gold ;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gold;
+}
+
+button.remove {
+    background: 
+    color: #220b79
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.remove:hover {
+    background: gold;
+}
+
+
